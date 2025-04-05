@@ -12,7 +12,7 @@ public:
         {
             for (int j = i+1; j < nums.size(); j++)
             {
-                if (nums[i]>nums[j])
+                if (nums[i]>nums[j])//we can do this with the dutch national algorithm
                 {
                     int temp = nums[i];
                     nums[i] = nums[j];

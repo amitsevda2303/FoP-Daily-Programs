@@ -19,8 +19,8 @@ int main(){
     cc[2].roll_no = 13;
     cc[3].roll_no = 12;
     cout<<cc<<endl;
-    struct Student *ptr_cc = cc+3;
-    cout<<(*ptr_cc).roll_no<<"\n";
+    struct Student *ptr_cc = cc;
+    cout<<ptr_cc->roll_no<<"\n";
     
     return 0;
 }
