@@ -24,8 +24,6 @@ public:
 class HomoSapiens: public Mammals {
 public:
 	string name;
-
-private:
 	HomoSapiens() {
 		//
 	};
